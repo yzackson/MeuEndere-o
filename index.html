@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="page-title">Qual meu endereco?</h1>
+        <div id="input">
+            <input type="text" id="cepInput">
+            <button onclick="getAddress()">Submit</button>
+        </div>
+    </header>
+    <section class="container">
+        <table>
+            <tr class="title">
+                <td class="result-title"><p>CEP:</p></td><td class="result-content" id="CEP"></td>
+            </tr>
+            <tr class="title">
+                <td class="result-title"><p>Rua:</p></td><td class="result-content" id="Rua"></td>
+            </tr>
+            <tr class="title">
+                <td class="result-title"><p>Complemento:</p></td><td class="result-content" id="Complemento"></td>
+            </tr>
+            <tr class="title">
+                <td class="result-title"><p>Bairro:</p></td><td class="result-content" id="Bairro"></td>
+            </tr>
+            <tr class="title">
+                <td class="result-title"><p>Localidade:</p></td><td class="result-content" id="Localidade"></td>
+            </tr>
+            <tr class="title">
+                <td class="result-title"><p>UF:</p></td><td class="result-content" id="UF"></td>
+            </tr>
+        </table>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
